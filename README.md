@@ -40,37 +40,34 @@ This repository provides an end‑to‑end MATLAB simulation of a point‑to‑p
 OpenStreetMap 3D view centered on Bryant Park and the Manhattan canyon.
 
 ---
+### 2. Tx/Rx Positions  
+![Tx & Rx Positions](/docs/images/tx_rx_position.png)  
+Markers show transmitter on tower roof and receiver at street‐level.
 
-### 2. All Possible Ray Paths (No Weather)  
+---
+### 3. LOS Path Only  
+![LOS Path](/docs/images/los_path.png)  
+Line‑of‑sight path in green overlaid on the site viewer.
+
+---
+### 4. All Possible Ray Paths (No Weather)  
 ![All Possible Paths](/docs/images/all_possible_path.png)  
-Deterministic ray‑tracing with up to 10 reflections, perfect‐reflector materials.
+Deterministic ray‑tracing with up to reflections, perfect‐reflector materials.
 
 ---
 
-### 3. All Possible Ray Paths (With Gas + Rain)  
+### 5. All Possible Ray Paths (With Gas + Rain)  
 ![After Including Weather](/docs/images/after_including_weather.png)  
 Same as above, but with ITU‑R rain/gas attenuation added to the propagation model.
 
 ---
 
-### 4. Directivity Toward Receiver (Tx Horn)  
+### 6. Directivity Toward Receiver (Tx Horn)  
 ![Increasing Directivity Towards Receiver](/docs/images/increasing_directivity_towards_reciver.png)  
 Custom horn pattern steered manually at the primary reflection path.
 
 ---
 
-### 5. LOS Path Only  
-![LOS Path](/docs/images/los_path.png)  
-Line‑of‑sight path in green overlaid on the site viewer.
-
----
-
-### 6. Tx/Rx Positions  
-![Tx & Rx Positions](/docs/images/tx_rx_position.png)  
-Markers show transmitter on tower roof and receiver at street‐level.
-
----
-
 ### 7. Rays After Steering  
-![Rays After Steering](/docs/images/rays_after_sterring.png)  
+![Rays After Steering](/docs/images/rays_after_steering.png)  
 Ray‑trace result when horn is pointed along the strongest departure angle.
